@@ -2,13 +2,14 @@ syntax = "proto3";
 
 package dto;
 
-message AddReq
+message CalcReq
 {
     int32 a = 1;
     int32 b = 2;
+    string method = 3;
 }
 
-message AddRes
+message CalcRes
 {
-    int32 Result =1;
+    int32 Result = 1;
 }

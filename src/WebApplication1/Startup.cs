@@ -38,7 +38,7 @@ namespace WebApplication1
 
             services.AddFluentValidation();
 
-            services.AddTransient<IValidator<Dto.AddReq>, AddReqValidator>();
+            services.AddTransient<IValidator<Dto.CalcReq>, CalcReqValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
