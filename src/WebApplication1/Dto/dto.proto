@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package dto;
+
+message AddReq
+{
+    int32 a = 1;
+    int32 b = 2;
+}
+
+message AddRes
+{
+    int32 Result =1;
+}
